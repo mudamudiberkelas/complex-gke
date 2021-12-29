@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: client
-          image: mudamudiberkelas/multi-client-k8s:latest
+          image: mudamudiberkelas/multi-client:latest
           ports:
             - containerPort: 3000
