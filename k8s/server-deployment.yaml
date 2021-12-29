@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: mudamudiberkelas/multi-server
+          image: mudamudiberkelas/multi-server-k8s-pgfix:latest
           ports:
             - containerPort: 5000
           env:
